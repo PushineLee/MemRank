@@ -1,8 +1,13 @@
 # MemRank
-MemRank: Memory-Augmented Similarity Ranking for Facial Depression Recognition   
-model weight [[Baidu Netdisk]](https://pan.baidu.com/s/1Cud4teO_9sLxeHxRGqtpdg?pwd=22jr) for C3D backbone on AVEC 2013.   
-model weight [[Baidu Netdisk]](https://pan.baidu.com/s/1eP2oK37fvja2YcrDh9P8kw?pwd=r4je) for MemRank on AVEC 2013.  
-model weight [[Baidu Netdisk]](https://pan.baidu.com/s/1o38G1CKp_uwZ3nXCyToTSQ?pwd=hpos) for C3D backbone on AVEC 2014.  
-model weight [[Baidu Netdisk]](https://pan.baidu.com/s/1BwR1fnqny8_ONjjz4XIS5g?pwd=g8aw) for MemRank on AVEC 2014.  
+MemRank:  Memory-Augmented Similarity Ranking for Video-based Depression Severity Estimation   
+model weight [[Baidu Netdisk]](https://pan.baidu.com/s/1iC_tid77YEdb4o9zR5lFvg?pwd=ka32) for C3D backbone on AVEC 2013.   
+model weight [[Baidu Netdisk]](https://pan.baidu.com/s/1npLp5V9eA_lldcQCquEpmA?pwd=aik7) for MemRank on AVEC 2013.  
+model weight [[Baidu Netdisk]](https://pan.baidu.com/s/1uN8R7GgM1dUHrud2xJHedw?pwd=286n) for C3D backbone on AVEC 2014.  
+model weight [[Baidu Netdisk]](https://pan.baidu.com/s/1fNO3bPNKiXXmkM5NOGr0Fg?pwd=o7u1) for MemRank on AVEC 2014.  
 You can load the model weights into the C3D_model.py for testing.
 
+## Datasets
+In order to protect the privacy of participants in the AVEC 13 and 14 datasets, we are unable to provide the dataset. For specific data partitioning protocols, please refer to the following papers:"Avec 2013: the continuous audio/visual emotion and depression recognition challenge" and  "Avec 2014: 3d dimensional affect and depression recognition challenge". 
+
+## Others
+Other files will be updated later.
