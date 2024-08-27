@@ -13,4 +13,4 @@ In order to protect the privacy of participants in the AVEC 13 and 14 datasets, 
 Other files will be updated later.
 
 ## Acknowledgement
-MemRank is built based on the [[FDS]](https://github.com/YyzHarry/imbalanced-regression) and [[RankSim]](https://github.com/BorealisAI/ ranksim-imbalanced-regression). We are very grateful to the authors for releasing the code as open source. You can get more detailed information from the above mentioned work.
+MemRank is built based on the [[FDS]](https://github.com/YyzHarry/imbalanced-regression) and [[RankSim]](https://github.com/BorealisAI/ranksim-imbalanced-regression). We are very grateful to the authors for releasing the code as open source. You can get more detailed information from the above mentioned work.
