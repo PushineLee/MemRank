@@ -7,7 +7,10 @@ model weight [[Baidu Netdisk]](https://pan.baidu.com/s/1fNO3bPNKiXXmkM5NOGr0Fg?p
 You can load the model weights into the C3D_model.py for testing.
 
 ## Datasets
-In order to protect the privacy of participants in the AVEC 13 and 14 datasets, we are unable to provide the dataset. For specific data partitioning protocols, please refer to the following papers:"Avec 2013: the continuous audio/visual emotion and depression recognition challenge" and  "Avec 2014: 3d dimensional affect and depression recognition challenge". 
+In order to protect the privacy of participants in the AVEC 13 and 14 datasets, we are unable to provide the datasets. For specific data partitioning protocols, please refer to the following papers:"Avec 2013: the continuous audio/visual emotion and depression recognition challenge" and  "Avec 2014: 3d dimensional affect and depression recognition challenge". 
 
 ## Others
 Other files will be updated later.
+
+## Acknowledgement
+MemRank is built based on the [FDS]([http://example.com/ "Title"](https://github.com/YyzHarry/imbalanced-regression)) and ([RankSim](https://github.com/BorealisAI/ ranksim-imbalanced-regression)). We are very grateful to the authors for releasing the code as open source. You can get more detailed information from the above mentioned work.
