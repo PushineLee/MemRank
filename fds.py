@@ -223,13 +223,13 @@ class FDS(nn.Module):
     #     return idx_list,features
 
     # def new_version_smooth_03(self, features):
-        idx_list = torch.zeros(features.shape[0]).to(features.device)
-        self.running_mean_last_epoch[torch.mean(self.running_mean_last_epoch,dim = -1) == 0]  = self.smoothed_mean_last_epoch[torch.mean(self.running_mean_last_epoch,dim = -1) == 0] 
-        for i in range(features.shape[0]):
-            xxt = torch.matmul(F.normalize(self.running_mean_last_epoch), F.normalize(features[i].view(1,8192)).permute(1,0)).squeeze(-1)
-            # dis = (self.running_mean_last_epoch - features[i].view(1,-1)).square().sum(dim = -1)
+        # idx_list = torch.zeros(features.shape[0]).to(features.device)
+        # self.running_mean_last_epoch[torch.mean(self.running_mean_last_epoch,dim = -1) == 0]  = self.smoothed_mean_last_epoch[torch.mean(self.running_mean_last_epoch,dim = -1) == 0] 
+        # for i in range(features.shape[0]):
+        #     xxt = torch.matmul(F.normalize(self.running_mean_last_epoch), F.normalize(features[i].view(1,8192)).permute(1,0)).squeeze(-1)
+        #     # dis = (self.running_mean_last_epoch - features[i].view(1,-1)).square().sum(dim = -1)
 
-            idx = torch.argmax(xxt)
+        #     idx = torch.argmax(xxt)
 
-            idx_list[i] = idx.to(features.device)
-        return idx_list
+        #     idx_list[i] = idx.to(features.device)
+        # return idx_list
